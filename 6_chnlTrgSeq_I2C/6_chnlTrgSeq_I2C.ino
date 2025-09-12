@@ -126,7 +126,7 @@ void setup() {
   pinMode(10, OUTPUT); //CH6
 
   // Read saved data
-  uint8_t EEadd = 0;
+  uint8_t EEadd = 1;
   for (uint8_t j = 0; j < 6; j++) {
     EEPROM.get(EEadd, chnl[j].step);
     EEadd += 2;
@@ -222,7 +222,7 @@ void loop() {
           //enc_max = 105;
           enc = 97; // When returning from AUTO to MANUAL, MANUAL will be selected. Feel free to change it.
           // Reading saved data
-          EEadd = 0;
+          EEadd = 1;
           for (uint8_t j = 0; j < 6; j++) {
             EEPROM.get(EEadd, chnl[j].step);
             EEadd += 2;
@@ -501,7 +501,7 @@ void OLED_display() {
 }
 
 void save_data() {
-  uint8_t EEadd = 0;
+  uint8_t EEadd = 1;
   for (uint8_t j = 0; j < 6; j++) {
     EEPROM.put(EEadd, chnl[j].step);
     EEadd += 2;
