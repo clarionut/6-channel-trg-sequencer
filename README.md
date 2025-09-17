@@ -11,3 +11,6 @@ The version uploaded 16/09/2025 has some bug fixes (some mine, some from the ori
 In addition to the I2C version, I have now created a version of the code to run on the same hardware as [my version of the Euclidean Rhythms module](https://github.com/clarionut/Euclidean_Rhythms). There's a speedup of ~35ms (2-3ms vs. 37ms per upload) per display refresh for SPI vs. I2C, which significantly improves performance. I'd recommend anyone interested in building one of these modules to use an SPI display. This version of the code is in the [6_chnlTrgSeq_SPI](https://github.com/clarionut/6-channel-trg-sequencer/tree/main/6_chnlTrgSeq_SPI) repository.
 
 The hardware for the SPI version uses different Arduino pins from the Hagiwo original but is identical to my Euclidean Rhythms module (except the potentiometers and socket for the probability control can be omitted from the panel). Of course it can be used as an alternative firmware on the Euclidean Rhythms hardware, but the Probability controls will do nothing in this case.
+
+### Updates
+17-09-2025 - fixed bug in the code for setting user-defined patterns
