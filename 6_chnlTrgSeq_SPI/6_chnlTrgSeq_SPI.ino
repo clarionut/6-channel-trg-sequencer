@@ -205,8 +205,8 @@ void loop() {
     if (button_on) { // Press the button while any step is selected to switch the gate ON/OFF.
       switch (enc) {
         case 1 ... 96: // Toggle channel steps
-          // (enc-1)/16 gives the channel number [0-5], 1<<(16-enc)%16 gives the bit within that channel [0-15]
-          chnl[(enc - 1) / 16].step ^= (enc - 1) / 16;
+          // (enc-1)/16 gives the channel number [0-5], (1<<(uint8_t)(16-enc)%16) gives the bit within that channel [0-15]
+          chnl[(enc - 1) / 16].step ^= (1 << (uint8_t) (16 - enc) % 16);
           break;
   
         case 97: // AUTO mode selected
