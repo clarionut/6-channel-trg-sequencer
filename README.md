@@ -13,4 +13,4 @@ In addition to the I2C version, I have now created a version of the code to run 
 The hardware for the SPI version uses different Arduino pins from the Hagiwo original but is identical to my Euclidean Rhythms module (except the potentiometers and socket for the probability control can be omitted from the panel). Of course it can be used as an alternative firmware on the Euclidean Rhythms hardware, but the Probability controls will do nothing in this case.
 
 ### Updates
-17-09-2025 - fixed bug in the code for setting user-defined patterns
+16-09-2025 - fixed bug in the code for setting user-defined patterns
