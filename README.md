@@ -1,4 +1,6 @@
 # 6 channel trigger sequencer
+<img width="259" height="780" alt="image" src="https://github.com/user-attachments/assets/5958719b-59ca-44fa-bde8-8927d8f4de9e" />
+
 A reworked version of [Hagiwo's 6 channel trigger sequencer](https://note.com/solder_state/n/n17c69afd484d).
 
 This release contains the reworked Arduino code for the same hardware as the original Hagiwo module (I2C OLED and the same Arduino pins) so it should run on an existing sequencer.
