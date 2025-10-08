@@ -16,3 +16,5 @@ To build a version of my Euclidean Rhythms PCB without the probability controls,
 
 ### Updates
 16-09-2025 - fixed bug in the code for setting user-defined patterns
+
+08-10-2025 - updated KiCad files (amended silk-screen labelling, minor header-pin changes)
