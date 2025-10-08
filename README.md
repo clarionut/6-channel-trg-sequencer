@@ -1,5 +1,5 @@
 # 6 channel trigger sequencer
-<img width="259" height="780" alt="image" src="https://github.com/user-attachments/assets/5958719b-59ca-44fa-bde8-8927d8f4de9e" />
+<img  width="150px" alt="image" src="https://github.com/user-attachments/assets/5958719b-59ca-44fa-bde8-8927d8f4de9e" />
 
 A reworked version of [Hagiwo's 6 channel trigger sequencer](https://note.com/solder_state/n/n17c69afd484d).
 
